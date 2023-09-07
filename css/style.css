@@ -20,3 +20,8 @@ ol,
 menu {
     list-style: none;
 }
+
+.web-app {
+    height: 100vh;
+    background-color: black;
+}
