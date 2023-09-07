@@ -54,7 +54,6 @@ menu {
     flex-wrap: wrap;
     row-gap: 15px;
     justify-content: space-between;
-    /* column-gap: 5px; */
 }
 
 .cams-section .cam {
@@ -101,6 +100,7 @@ menu {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    overflow: hidden;
 }
 
 .tool-bar .tools {
@@ -147,8 +147,3 @@ menu {
     background-color: #474747;
     cursor: pointer;
 }
-
-/* DEBUG RULES */
-
-
-
