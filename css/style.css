@@ -8,6 +8,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 13px;
 }
 
 img {
@@ -21,7 +22,61 @@ menu {
     list-style: none;
 }
 
+/* UTILITY CLASSES */
+    .container {
+        max-width: 980px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+/* WEB APP STYLING SECTION  */
+
 .web-app {
     height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* MAIN CONTENT STYLING SECTION  */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    padding-top: 40px;
+}
+
+.main-content .cams-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cams-section .cam {
+    flex-basis: calc(100% / 7);
+}
+
+
+/* TOOL BAR STYLING SECTION  */
+.tool-bar {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* DEBUG RULES */
+.debug .main-content {
+    background-color: red;
+    /* padding: 20px; */
+}
+
+.debug .main-content .cams-section .cam {
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.debug .tools {
+    padding: 20px;
+    background-color: aqua;
 }
