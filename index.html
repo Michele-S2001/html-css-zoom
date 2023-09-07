@@ -126,25 +126,62 @@
 
         <aside class="tool-bar">
             <!-- QUI VANNO I TOOL ELEMENTS -->
-            <div class="tools call-tools">
-                <div class="microphone-tool"></div>
-                <div class="video-tool"></div>
-            </div>
+            <ul class="tools call-tools">
+                <li class="tool microphone-tool">
+                    <div>
+                        <i class="fa-solid fa-microphone"></i>
+                        <span class="call-arrow">^</span>
+                    </div>
+                    <span>Mute</span>
+                </li>
+                <li class="tool video-tool">
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <span class="call-arrow">^</span>
+                    </div>
+                    <span>Stop Video</span>
+                </li>
+            </ul>
 
-            <div class="tools meeting-tools">
-                <div class="invite-tool"></div>
-                <div class="paricipants-tool"></div>
-                <div class="polling-tool"></div>
-                <div class="share-tool"></div>
-                <div class="chat-tool"></div>
-                <div class="record-tool"></div>
-                <div class="br-rooms-tool"></div>
-                <div class="more-l"></div>
-            </div>
+            <ul class="tools meeting-tools">
+                <li class="tool invite-tool">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>Invite</span>
+                </li>
+                <li class="tool paricipants-tool">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>Manage Participants</span>
+                </li>
+                <li class="tool polling-tool">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Polling</span>
+                </li>
+                <li class="tool share-tool">
+                    <i class="fa-solid fa-share-from-square"></i>
+                    <span>Share Screen</span>
+                </li>
+                <li class="tool chat-tool">
+                    <span class="chat-arrow">^</span>
+                    <i class="fa-solid fa-comment"></i>
+                    <span>Chat</span>
+                </li>
+                <li class="tool record-tool">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <span>Record</span>
+                </li>
+                <li class="tool br-rooms-tool">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <span>Breakout Rooms</span>
+                </li>
+                <li class="tool more-tool">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span>More</span>
+                </li>
+            </ul>
 
-            <div class="tools end-tool">
-                End meeting
-            </div>
+            <ul class="tool tools end-tool">
+                <li>End meeting</li>
+            </ul>
         </aside>
     </div>
 </body>

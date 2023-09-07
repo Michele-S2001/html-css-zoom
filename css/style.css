@@ -62,8 +62,52 @@ menu {
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
+.tool-bar .tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tool-bar .tools > li {
+    padding: 15px;
+    text-align: center;
+}
+
+.tool.share-tool .fa-share-from-square{
+    color: greenyellow;
+}
+
+.tool-bar .tool > span {
+    display: block;
+}
+
+.tools.end-tool {
+    color: red;
+}
+
+.tool-bar .tools .call-arrow {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.tool-bar .tools .chat-arrow {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.tools > .tool .fa-solid {
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
+.tool:hover {
+    background-color: #474747;
+}
 
 /* DEBUG RULES */
 .debug .main-content {
@@ -76,7 +120,3 @@ menu {
     border: 2px solid black;
 }
 
-.debug .tools {
-    padding: 20px;
-    background-color: aqua;
-}
