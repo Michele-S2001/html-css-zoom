@@ -45,7 +45,7 @@ menu {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 }
 
@@ -97,7 +97,6 @@ menu {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    overflow: hidden;
 }
 
 .tool-bar .tools {
